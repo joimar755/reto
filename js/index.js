@@ -42,7 +42,7 @@ const tabla = document.getElementById("tabla");
 tabla.innerHTML = "";
 producto.forEach((element) => {
   tabla.innerHTML += `
-       <div class="col-3">
+       <div class="col-6">
       <div class="p-3 card">
         <img src="${element.thumbnailUrl}" class="card-img-top  d-block mx-auto" alt="${element.title}">
         <h5 class="card-title" id="title">${element.title}</h5>
